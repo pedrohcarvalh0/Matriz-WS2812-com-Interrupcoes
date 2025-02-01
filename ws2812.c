@@ -172,7 +172,7 @@ int main() {
 
     while (1) {
         // Combinação de valores          R,  G,  B      Ex: 20, 0, 0 - LEDs na cor vermelha com 20% de intensidade
-        display_number(numbers[counter], 0, 0, 10);
+        display_number(numbers[counter], 0, 0, 200);
         sleep_ms(100);
     }
 
